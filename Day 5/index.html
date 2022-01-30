@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Change color of a box on click</title>
+</head>
+<body>
+	<style>
+		body{
+			text-align: center;
+		}
+		#btn1{
+			width: 50px;
+			height: 50px;
+			border-radius: 20%;
+			background-color: #07ee39;
+
+		}
+		#btn2{
+			width: 50px;
+			height: 50px;
+			border-radius: 20%;
+			background-color: #f50a3d;
+
+		}
+		#btn3{
+			width: 50px;
+			height: 50px;
+			border-radius: 20%;
+			background-color: #1809eb ;
+
+		}
+		
+		
+
+
+
+	</style>
+<div>
+	<img id="pic" src="1.png" width="400px">
+
+
+
+</div>
+
+
+<div>
+	<button id="btn1" onclick="change1()"></button>
+	<button id="btn2" onclick="change2()"></button>
+	<button  id="btn3" onclick="change3()"></button>
+
+
+</div>
+<script>
+	function change1()
+	{
+
+document.getElementById('pic').src='2.png';
+
+	}
+
+	function change2()
+	{
+
+document.getElementById('pic').src='3.png';
+
+	}
+
+	function change3()
+	{
+
+document.getElementById('pic').src='4.png';
+
+	}
+
+
+
+
+
+</script>
+</body>
